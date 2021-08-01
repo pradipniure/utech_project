@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/090d8f87da.js"></script>
+</head>
+<body>
+    <section class="header">
+       <nav>
+          <a href="index.html"><img src="photos/u b logo.png"></a>
+           <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+               <ul>
+                   <li><a href="">HOME</a></li>
+                   <li><a href="">ABOUT</a></li>
+                   <li><a href="">COURSE</a></li>
+                   <li><a href="">BLOG</a></li>
+                   <li><a href="">CONTACT</a></li>
+
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showmenu()"></i>
+       </nav>
+    <div class="text-box">
+        <h1>Affiliate to Pokhara University</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iure repellendus nostrum officiis! Veniam libero quidem voluptatibus nulla vero. Quis velit molestiae dolorum consequatur voluptatum sed repellendus distinctio, culpa aut ab perferendis nostrum exercitationem, quod sequi beatae quam quisquam fugiat doloribus? Explicabo voluptatum omnis quos non officia doloribus blanditiis tempora.
+        </p>
+        <a href="" class="hero-btn">Visit US</a>
+    </div>
+    </section>
+    <!---------------Java Script Toggle menu------------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0"
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px"
+        }
+        
+    </script>
+    
+    <!----Course-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem harum repellendus delectus similique ut sint quis voluptates. Repudiandae architecto vero reprehenderit explicabo! Quis delectus quisquam, ab, odit eaque minima fugiat adipisci quod placeat blanditiis fuga!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Computer Engineering</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, suscipit tempora. Itaque autem accusantium possimus voluptatum ratione repellat sed expedita, rerum alias laborum. Aut aspernatur illum delectus fugit. Quam, alias!</p>
+            </div>
+            <div class="course-col">
+                <h3>Electrical Engineering</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, suscipit tempora. Itaque autem accusantium possimus voluptatum ratione repellat sed expedita, rerum alias laborum. Aut aspernatur illum delectus fugit. Quam, alias!</p>
+            </div>
+            <div class="course-col">
+                <h3>Civil Engineering</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, suscipit tempora. Itaque autem accusantium possimus voluptatum ratione repellat sed expedita, rerum alias laborum. Aut aspernatur illum delectus fugit. Quam, alias!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!----Blog-->
+    <section class="blog">
+        <h1>Our Blog Picture</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cumque odit ab suscipit consequuntur fugit eos qui. Nostrum, error sint?</p>
+        <div class="row">
+            <div class="blog-col">
+            <img src="photos/TOP.jpg">
+            <div class="layer">
+                <h3>top</h3>
+            </div>
+            </div>
+            <div class="blog-col">
+                <img src="photos/185A9231.jpg">
+                <div class="layer">
+                    <h3>Cover</h3>
+             </div>
+             </div>
+             <div class="blog-col">
+                <img src="photos/utec3.jpg">
+                <div class="layer">
+                    <h3>Profile</h3>
+             </div>
+             </div>
+            
+            
+        </div>    
+    </section>
+
+    <!----Facilities-->
+    <section class="Facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cumque odit ab suscipit consequuntur fugit eos qui. Nostrum, error sint?</p>
+        <div class="row">
+            <div class="Facilities-col">
+                <img src="images/library.png" >
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sunt, corporis magnam incidunt nobis voluptas?</p> 
+            </div>
+            <div class="Facilities-col">
+                <img src="images/cafeteria.png" >
+                <h3>Tasty & Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sunt, corporis magnam incidunt nobis voluptas?</p> 
+            </div>
+            <div class="Facilities-col">
+                <img src="images/basketball.png" >
+                <h3>Basketball</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sunt, corporis magnam incidunt nobis voluptas?</p> 
+            </div>
+        </div>
+    
+    </section>
+    <!-----Testimonials-->
+    <section class="Testimonials">
+        <h1>What Our Students</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, totam eius ratione, quisquam quidem blanditiis rem, impedit expedita optio quasi saepe dolor placeat aut ad earum! Impedit perferendis alias tenetur!</p>
+
+        <div class="row">
+            <div class="Testimonials-col">
+                <img src="photos/u b logo.png" alt="">
+            <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem doloremque quod saepe possimus, modi cumque illo sit ipsa aut tenetur qui nihil maxime voluptatum unde eum mollitia vitae provident voluptatibus recusandae nostrum atque delectus quo!</p>
+            <h3>Hari</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            </div>
+            <div class="Testimonials-col">
+                <img src="photos/u b logo.png" alt="">
+            <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem doloremque quod saepe possimus, modi cumque illo sit ipsa aut tenetur qui nihil maxime voluptatum unde eum mollitia vitae provident voluptatibus recusandae nostrum atque delectus quo!</p>
+            <h3>Shyam</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+            </div>
+            <div class="Testimonials-col">
+                <img src="photos/u b logo.png" alt="">
+            <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem doloremque quod saepe possimus, modi cumque illo sit ipsa aut tenetur qui nihil maxime voluptatum unde eum mollitia vitae provident voluptatibus recusandae nostrum atque delectus quo!</p>
+            <h3>Ram</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+            </div>
+        </div>
+
+    </section>
+    <!------CALL----->
+    <section class="call">
+        <h1>Choose and make a call for reservation.</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+
+    </section>
+
+    <!------FOOTER----->
+    
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Eius, officiis velit sapiente enim amet nam accusamus soluta tempore totam placeat accusantium <br>
+           expedita quo deserunt voluptas dignissimos, sunt quam recusandae doloremque magni voluptatum natus reprehenderit consectetur blanditiis sint? Recusandae <br>
+           modi impedit praesentium laborum voluptatem laudantium officia, magni et soluta mollitia ipsa!</p>
+           <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+           </div>
+           <p>By Pradip Niure</p>
+    </section>
+
+    
+
+</body>
+</html>
